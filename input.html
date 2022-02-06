@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Getting input for training</title>
+</head>
+
+    <div>
+      <form action="/" method="post"  enctype="multipart/form-data">
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="prompt" class="form-label">Prompt</label>
+            <input type="text" class="form-control" name="prompt" id="prompt" required />
+          </div>
+          <div class="mb-3">
+            <label for="quality" class="form-label">Quality</label>
+            <input type="text" class="form-control" name="quality" id="quality" required />
+          </div>
+          <div class="mb-3">
+            <label for="aspect" class="form-label">Aspect</label>
+            <input type="text" class="form-control" name="aspect" id="aspect" required />
+          </div>
+          <div class="d-grid gap-2">
+            <button class="btn btn-primary" type="submit">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+</html>
